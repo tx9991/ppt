@@ -162,11 +162,4 @@ class AlipayService
         return $data;
     }
 
-    function dd($all)
-    {
-        echo '<pre>';
-        var_dump($all);
-        echo '</pre>';
-        exit();
-    }
 }
